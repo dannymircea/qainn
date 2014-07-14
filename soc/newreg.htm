@@ -1,0 +1,49 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../soc/res/css/main.css">
+	<title>Register a new free account</title>
+</head>
+	<body>
+		<h1>Welcome </h1>
+		<a href="../m/hell/generateDir">click here to go back to the DIRECTORY </a>
+		<br>
+		<div class="registration-form" >
+			<form enctype="multipart/form-data" action="../m/hell/xvmpilomarCreate" method="post">
+				<label for="username_f">Username:</label>
+				<input class="registration-form-input" type="text" name="usrname" id="username_f"><br/>
+				<label for="fulluser_f">Full name:</label>
+				<input class="registration-form-input" type="text" name="fullusr" id="fulluser_f"><br/>
+				<label for="password_f">Password:</label>
+				<input class="registration-form-input" type="password" name="passwd" id="password_f"><br/>
+				<label for="passwordc_f">Confirm password:</label>
+				<input class="registration-form-input" type="password" name="passwdc" id="passwordc_f"><br/>
+				<label for="email_f">Email:</label>
+				<input class="registration-form-input" type="text" name="email" id="email_f" ><br/>
+				<label for="phone_f">Phone:</label>
+				<input class="registration-form-input" type="text" name="phone" id="phone_f" ><br/>
+				<label for="occup_f">Occupation:</label>
+				<input class="registration-form-input" type="text" name="occupation" id="occup_f" ><br/>
+				<label for="female_f">female:</label>
+				<input class="registration-form-input" type="radio" name="gender_radio" value="female" id="female_f" >
+				<label for="male_f">male:</label>
+				<input class="registration-form-input" type="radio" name="gender_radio" value="male" id="male_f" ></br>
+				<label for="language_f">Language:</label>
+				<select name="langSelect">
+					<option value="notSelected">Please select</option>
+					<option value="English_lang">English</option>
+					<option value="French_lang">French</option>
+					<option value="Romanian_lang">Romanian</option>
+					<option value="German_lang">German</option>
+					<option value="Italian_lang">Italian</option>
+					<option value="Japanese_lang">Japnese</option>
+				</select><br/>
+
+				<input type="file" name="picturefile"  id="poza_f" ><br/>
+				<input type="submit" value="Trimite username">
+			</form>
+		</div>
+
+		<hr width=80% style="margin-left:4px; color:orange">
+	</body>
+</html>
